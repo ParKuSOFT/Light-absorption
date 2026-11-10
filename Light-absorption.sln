@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{9CAB8E07-94FE-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light-absorption.UI", "UI\Light-absorption.UI\Light-absorption.UI.csproj", "{A4B1182F-D4D9-4D84-96A2-0340D7686A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light-absorption.UI.Smoke", "UI\Light-absorption.UI.Smoke\Light-absorption.UI.Smoke.csproj", "{2F713F0D-9B1A-4E77-A472-701FAD3FEDA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{A4B1182F-D4D9-4D84-96A2-0340D7686A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B1182F-D4D9-4D84-96A2-0340D7686A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B1182F-D4D9-4D84-96A2-0340D7686A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F713F0D-9B1A-4E77-A472-701FAD3FEDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F713F0D-9B1A-4E77-A472-701FAD3FEDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F713F0D-9B1A-4E77-A472-701FAD3FEDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F713F0D-9B1A-4E77-A472-701FAD3FEDA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A4B1182F-D4D9-4D84-96A2-0340D7686A8A} = {9CAB8E07-94FE-456B-882F-2D44C5262A5D}
+		{2F713F0D-9B1A-4E77-A472-701FAD3FEDA1} = {9CAB8E07-94FE-456B-882F-2D44C5262A5D}
 	EndGlobalSection
 EndGlobal
