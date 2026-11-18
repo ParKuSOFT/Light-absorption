@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Light_absorption.Core.Solvers
 {
-    public class EulerSolver
+    public class EulerSolver : ISolver
     {
         public List<ExperimentState> Solve(ExperimentState initialState, double maxZ, double dz)
         {
