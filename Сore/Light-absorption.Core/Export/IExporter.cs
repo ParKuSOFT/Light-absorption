@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Light_absorption.Core.Export
 {
-    internal interface IExporter
+    public interface IExporter
     {
-        void ExportToCsv(List<ExperimentState> history, double dz, string filePath);
+        string ExportToCsv(List<ExperimentState> history, double dz);
     }
 }
