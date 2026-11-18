@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Light_absorption.Core.Models;
+using System.IO;
 
 namespace Light_absorption.Core.Export
 {
-    public class CsvExporter
+    public class CsvExporter : IExporter
     {
         public void ExportToCsv(List<ExperimentState> history, double dz, string filePath)
         {
